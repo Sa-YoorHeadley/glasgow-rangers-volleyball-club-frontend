@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="font-body p-0 m-0 min-h-screen bg-neutral">
       {/* Router wraps all routes for SPA navigation */}
-      <Router>
+      <Router basename="/glasgow-rangers-volleyball-club-frontend/">
         {/* AppRoutes handles all route definitions */}
         <AppRoutes />
       </Router>
