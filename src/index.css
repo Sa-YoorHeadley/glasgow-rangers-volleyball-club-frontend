@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter.woff2") format("woff2");
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./assets/fonts/Montserrat.woff2") format("woff2");
+  font-display: swap;
+  font-style: normal;
+}
+
+@theme {
+  --color-primary: #4b0082;
+  --color-secondary: #ffd700;
+  --color-secondary-dark: #544600;
+  --color-tertiary: #2d004f;
+  --color-neutral: #f8f9fa;
+
+  --font-header: "Montserrat", "Source Sans 3", "sans-serif";
+  --font-body: "Inter", "Source Sans 3", "sans-serif";
+}

@@ -1,0 +1,17 @@
+export const ROUTES = {
+  HOME: "/",
+  ABOUT: "/about",
+  CONTACT: "/contact",
+  SPONSORS: "/sponsors",
+  PLAYERS: "/players",
+  TRAINING: "/training",
+  GALLERY: "/gallery",
+  NEWS: "/news",
+  EVENTS: "/events",
+  TEAMS: "/teams",
+  SENIOR_MALE_TEAM: "/teams/senior-male",
+  SENIOR_FEMALE_TEAM: "/teams/senior-female",
+  JUNIOR_TEAM: "/teams/junior",
+  REGISTRATION: "/registration",
+  MAINTENANCE: "/maintenance",
+};
